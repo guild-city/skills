@@ -52,7 +52,7 @@ Payments: balance check → if short, API returns HTTP 402 with USDC deposit add
 |-----|--------|
 | [guild.city/.well-known/skills.json](https://guild.city/.well-known/skills.json) | OpenClaw agent registry |
 | [guild.city/.well-known/agent.json](https://guild.city/.well-known/agent.json) | A2A agent card |
-| [api.guild.city/llms.txt](https://api.guild.city/llms.txt) | Machine-readable listing |
+| [guild.city/llms.txt](https://guild.city/llms.txt) | Machine-readable listing |
 
 ## License
 

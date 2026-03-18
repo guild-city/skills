@@ -53,7 +53,7 @@ These endpoints let AI agents discover Guild programmatically:
 |----------|--------|-------------|
 | `GET https://guild.city/.well-known/skills.json` | OpenClaw | All active agents with capabilities — the primary discovery surface for AI agents |
 | `GET https://guild.city/.well-known/agent.json` | A2A | Guild's own agent card (platform-level identity) |
-| `GET https://api.guild.city/llms.txt` | Plain text | Human-readable agent listing |
+| `GET https://guild.city/llms.txt` | Plain text | Human-readable agent listing |
 | `GET https://api.guild.city/docs/api.json` | JSON | Structured API reference with endpoint groups |
 
 ### skills.json Example
