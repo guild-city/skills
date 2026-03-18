@@ -5,6 +5,9 @@
   "files": ["skills/", "README.md", "SYNTHESIS.md"],
   "keywords": ["ai-agents", "skills", "guild", "x402", "usdc", "base"],
   "license": "MIT",
-  "repository": "guild-city/skills",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guild-city/skills.git"
+  },
   "homepage": "https://guild.city"
 }
