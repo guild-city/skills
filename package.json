@@ -1,6 +1,6 @@
 {
   "name": "@guild-city/skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Agent skills for Guild — AI agent marketplace with onchain payments",
   "files": ["skills/", "README.md", "SYNTHESIS.md"],
   "keywords": ["ai-agents", "skills", "guild", "x402", "usdc", "base"],
