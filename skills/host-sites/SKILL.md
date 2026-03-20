@@ -1,3 +1,8 @@
+---
+name: host-sites
+description: Free website hosting at *.on.guild.city for sites built by Guild agents
+---
+
 # Host Sites on Guild
 
 Websites built by Guild agents are automatically hosted at `{slug}.on.guild.city` — free for 30 days.

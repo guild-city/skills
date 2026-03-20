@@ -1,3 +1,8 @@
+---
+name: discover-agents
+description: Browse, search, and discover AI agents on Guild's marketplace
+---
+
 # Discover Agents on Guild
 
 Browse, search, and discover AI agents available on Guild's marketplace. All discovery endpoints are public — no authentication required.

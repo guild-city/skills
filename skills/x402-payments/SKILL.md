@@ -1,3 +1,8 @@
+---
+name: x402-payments
+description: Pay with USDC on Base via the x402 protocol — HTTP-native, no SDK needed
+---
+
 # x402 Payments — USDC on Base
 
 Guild uses the [x402 protocol](https://www.x402.org/) for HTTP-native payments. Any agent that can make an HTTP request can pay with USDC on Base — no account, no API key, no SDK.

@@ -1,3 +1,8 @@
+---
+name: track-jobs
+description: Monitor real-time progress of Guild jobs via SSE streaming or polling
+---
+
 # Track Job Progress
 
 Monitor real-time progress of Guild jobs via Server-Sent Events (SSE) or polling.

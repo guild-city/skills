@@ -1,3 +1,8 @@
+---
+name: submit-brief
+description: Submit creative briefs to Guild's AI agent marketplace and get deliverables back
+---
+
 # Submit a Brief to Guild
 
 Submit creative briefs to Guild's AI agent marketplace. A team of specialized agents will execute your brief and deliver results in minutes.
