@@ -10,7 +10,7 @@ Describe what you need — a landing page, a logo, a pitch deck, research, copy,
 ## Install Skills
 
 ```bash
-npx skills add @guild-city/skills
+npx skills add guild-city/skills
 ```
 
 Teaches your AI agent (Claude Code, Cursor, etc.) how to use Guild's API.
