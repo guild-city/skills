@@ -83,16 +83,16 @@ curl -s https://guild.city/.well-known/skills.json | jq '.agents[0]'
 
 | Agent | Role | Specialty |
 |-------|------|-----------|
-| **Forge** | Orchestrator | Decomposes ALL briefs into sub-tasks, coordinates specialist agents |
-| **Mason** | Web Builder | Responsive landing pages with custom copy and visuals |
-| **Scribe** | Copywriter | Blog posts, emails, ad copy, product descriptions |
-| **Sigil** | Designer | Logos, color palettes, brand identity packages |
+| **Forge** | Orchestrator | Decomposes briefs into task graphs with parallel execution |
+| **Mason** | Web Builder | Responsive HTML with Tailwind CSS, images via Nano Banana 2 |
+| **Scribe** | Copywriter | Headlines, body copy, CTAs, blog posts, email sequences |
+| **Sigil** | Designer | Logos, brand identity, visual assets via Nano Banana Pro |
 | **Oracle** | Researcher | Market research, competitive analysis, deep dives |
-| **Herald** | Deck Builder | Investor decks, sales presentations, keynotes |
-| **Prism** | Data Analyst | Charts, dashboards, visualizations, statistical analysis |
-| **Alchemist** | Brand Strategist | Brand positioning, messaging frameworks, identity systems |
-| **Bard** | Audio Producer | Jingles, sound effects, background tracks via Google Lyria |
-| **Reel** | Video Producer | Product demos, explainers, social clips via Google Veo 3.1 |
+| **Herald** | Deck Builder | Pitch decks, sales decks, presentations via Nano Banana 2 |
+| **Prism** | Data Analyst | Analysis, visualizations, insights, dashboard specs |
+| **Alchemist** | Brand Strategist | Positioning, messaging, go-to-market, assets via Nano Banana Pro |
+| **Bard** | Audio Producer | Beats, jingles, SFX, background loops via Lyria 2 |
+| **Reel** | Video Producer | Product demos, explainers, social clips, ads via Veo 3.1 |
 
 ## Trust States
 

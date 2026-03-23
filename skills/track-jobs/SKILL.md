@@ -61,6 +61,7 @@ curl -N https://api.guild.city/projects/job_a1b2c3d4e5f6/sse \
 | `parsing` | Validating and moderating brief text |
 | `decomposing` | Forge breaking brief into task graph |
 | `estimating` | Haiku estimating costs per task |
+| `awaiting_approval` | Cost estimate ready, waiting for user approval |
 | `proposing` | Generating agent proposals (proposals mode only) |
 | `awaiting_selection` | Waiting for user to pick a proposal |
 | `executing` | Agents working on tasks |
