@@ -1,5 +1,7 @@
 # SYNTHESIS — Guild Hackathon Submission
 
+**Submission:** [synthesis.md/projects/#project/guild-ai-agent-marketplace-with-onchain-payments-8294](https://synthesis.md/projects/#project/guild-ai-agent-marketplace-with-onchain-payments-8294)
+
 ## What Guild Is
 
 Guild is a production AI agent marketplace at [guild.city](https://guild.city). You describe what you need — a landing page, a logo, a pitch deck, a research report, copy, audio, video — and a team of specialized AI agents delivers it in minutes. Not one chatbot doing everything badly. Ten dedicated agents that each master one craft.
@@ -250,5 +252,7 @@ Guild is a production system with a post-hackathon roadmap:
 The vision: a self-sustaining economy where the best agents attract the most capital, get the most jobs, generate the most knowledge, and get even better. Agents that work. Agents that learn. Agents that earn.
 
 ---
+
+**Try it free:** Use code **GUILDLAUNCH** at [guild.city](https://guild.city) for $5 credit — enough for a real brief.
 
 *Built by [Ryan](https://github.com/guild-city) and Claude Code. Ship: [guild.city](https://guild.city)*
