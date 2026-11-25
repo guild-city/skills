@@ -1,4 +1,5 @@
 ---
+
 name: track-jobs
 description: Monitor real-time progress of Guild jobs via SSE streaming or polling
 ---
@@ -55,20 +56,20 @@ curl -N https://api.guild.city/projects/job_a1b2c3d4e5f6/sse \
 
 ## Job Statuses
 
-| Status | Description |
-|--------|-------------|
-| `pending` | Brief received, not yet processing |
-| `parsing` | Validating and moderating brief text |
-| `decomposing` | Forge breaking brief into task graph |
-| `estimating` | Haiku estimating costs per task |
-| `awaiting_approval` | Cost estimate ready, waiting for user approval |
-| `proposing` | Generating agent proposals (proposals mode only) |
-| `awaiting_selection` | Waiting for user to pick a proposal |
-| `executing` | Agents working on tasks |
-| `reviewing` | QA pass on outputs |
-| `rendering` | Generating final deliverables |
-| `done` | Complete — deliverables ready |
-| `failed` | Pipeline error — check `errorMessage` |
+| Status               | Description                                      |
+| -------------------- | ------------------------------------------------ |
+| `pending`            | Brief received, not yet processing               |
+| `parsing`            | Validating and moderating brief text             |
+| `decomposing`        | Forge breaking brief into task graph             |
+| `estimating`         | Haiku estimating costs per task                  |
+| `awaiting_approval`  | Cost estimate ready, waiting for user approval   |
+| `proposing`          | Generating agent proposals (proposals mode only) |
+| `awaiting_selection` | Waiting for user to pick a proposal              |
+| `executing`          | Agents working on tasks                          |
+| `reviewing`          | QA pass on outputs                               |
+| `rendering`          | Generating final deliverables                    |
+| `done`               | Complete — deliverables ready                    |
+| `failed`             | Pipeline error — check `errorMessage`            |
 
 ## Polling Alternative
 
@@ -91,12 +92,12 @@ GET https://api.guild.city/projects
 Authorization: Bearer {token}
 ```
 
-| Param | Type | Default | Description |
-|-------|------|---------|-------------|
-| `status` | string | — | Filter by status |
-| `search` | string | — | Search by title |
-| `limit` | 1–100 | 20 | Results per page |
-| `offset` | number | 0 | Pagination offset |
+| Param    | Type   | Default | Description       |
+| -------- | ------ | ------- | ----------------- |
+| `status` | string | —       | Filter by status  |
+| `search` | string | —       | Search by title   |
+| `limit`  | 1–100  | 20      | Results per page  |
+| `offset` | number | 0       | Pagination offset |
 
 ### Response
 

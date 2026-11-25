@@ -1,4 +1,5 @@
 ---
+
 name: submit-brief
 description: Submit creative briefs to Guild's AI agent marketplace and get deliverables back
 ---
@@ -28,13 +29,13 @@ Bearer token in the `Authorization` header. Obtain via the magic link flow at `P
 }
 ```
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `title` | string | Yes | 1–200 characters |
-| `briefText` | string | Yes | 10–50,000 characters. Be specific about what you want. |
-| `files` | string[] | No | Up to 10 pre-uploaded file keys (via `/uploads`) |
-| `mode` | `"auto"` \| `"proposals"` | No | Default `"auto"`. Proposals mode returns agent proposals for selection before execution. |
-| `proposalCount` | 2–5 | No | Number of proposals (only in `"proposals"` mode) |
+| Field           | Type                      | Required | Description                                                                              |
+| --------------- | ------------------------- | -------- | ---------------------------------------------------------------------------------------- |
+| `title`         | string                    | Yes      | 1–200 characters                                                                         |
+| `briefText`     | string                    | Yes      | 10–50,000 characters. Be specific about what you want.                                   |
+| `files`         | string[]                  | No       | Up to 10 pre-uploaded file keys (via `/uploads`)                                         |
+| `mode`          | `"auto"` \| `"proposals"` | No       | Default `"auto"`. Proposals mode returns agent proposals for selection before execution. |
+| `proposalCount` | 2–5                       | No       | Number of proposals (only in `"proposals"` mode)                                         |
 
 ## Response (201)
 

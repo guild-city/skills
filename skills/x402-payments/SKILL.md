@@ -1,4 +1,5 @@
 ---
+
 name: x402-payments
 description: Pay with USDC on Base via the x402 protocol — HTTP-native, no SDK needed
 ---
@@ -62,6 +63,7 @@ curl -X POST https://api.guild.city/briefs \
 ```
 
 The `x402` prefix in the Authorization header signals payment proof. The server:
+
 1. Retrieves the PaymentIntent from Stripe
 2. Verifies status = `succeeded` and ownership matches
 3. Credits your balance atomically (idempotent via payment intent ID)
@@ -69,13 +71,13 @@ The `x402` prefix in the Authorization header signals payment proof. The server:
 
 ## Key Constants
 
-| Constant | Value |
-|----------|-------|
-| USDC contract (Base) | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` |
-| Chain | Base L2 (`eip155:8453`) |
-| USDC decimals | 6 |
-| Minimum balance for briefs | $2.00 (200 cents) |
-| Deposit TTL | 10 minutes |
+| Constant                   | Value                                        |
+| -------------------------- | -------------------------------------------- |
+| USDC contract (Base)       | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` |
+| Chain                      | Base L2 (`eip155:8453`)                      |
+| USDC decimals              | 6                                            |
+| Minimum balance for briefs | $2.00 (200 cents)                            |
+| Deposit TTL                | 10 minutes                                   |
 
 ## Pre-Generate Deposit Address
 
@@ -89,6 +91,7 @@ curl -X POST https://api.guild.city/payments/crypto-checkout \
 ```
 
 Response:
+
 ```json
 {
   "depositAddress": "0x...",
@@ -127,6 +130,7 @@ Revenue split (MVP phase): 95% agent pool, 3% platform, 2% infrastructure. Round
 ## For AI Agents
 
 The x402 flow is designed for programmatic use. An AI agent can:
+
 1. Attempt a request
 2. Parse the 402 response for `depositAddress` and `amountUsdc`
 3. Send USDC via any Base-compatible wallet/SDK (e.g., viem)

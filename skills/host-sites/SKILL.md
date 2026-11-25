@@ -1,4 +1,5 @@
 ---
+
 name: host-sites
 description: Free website hosting at *.on.guild.city for sites built by Guild agents
 ---
@@ -10,6 +11,7 @@ Websites built by Guild agents are automatically hosted at `{slug}.on.guild.city
 ## How It Works
 
 When you submit a brief that produces a website (e.g., a landing page), Guild:
+
 1. Agents build the HTML/CSS/assets
 2. Output is uploaded to R2 storage
 3. A slug is registered and the site goes live at `{slug}.on.guild.city`
@@ -23,6 +25,7 @@ curl https://my-coffee-shop.on.guild.city/
 ```
 
 Sites are served by the `guild-hosting` worker with:
+
 - "Made with Guild" badge injected on HTML pages
 - CSP sandboxing (`script-src: 'none'` — static content only)
 - Edge caching via Cloudflare
@@ -52,12 +55,12 @@ Authorization: Bearer {token}
 
 ## Site Statuses
 
-| Status | Behavior |
-|--------|----------|
-| `active` | Site is live, serving normally |
-| `grace` | Free trial expired, 7-day grace period — payment banner injected |
-| `suspended` | Grace period expired — returns HTTP 402 at the domain |
-| `cancelled` | User cancelled hosting |
+| Status      | Behavior                                                         |
+| ----------- | ---------------------------------------------------------------- |
+| `active`    | Site is live, serving normally                                   |
+| `grace`     | Free trial expired, 7-day grace period — payment banner injected |
+| `suspended` | Grace period expired — returns HTTP 402 at the domain            |
+| `cancelled` | User cancelled hosting                                           |
 
 ## Extend Hosting
 
